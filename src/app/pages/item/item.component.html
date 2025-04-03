@@ -1,0 +1,14 @@
+<h1>Product List</h1>
+<div *ngIf="products$ | async as products; else loading">
+  <div *ngFor="let product of products">
+    <h3>{{ product.title }}</h3>
+    <!--dynamic routes need []-->
+    <a [routerLink]="['/product', product.id]">details</a>
+    <hr>
+  </div>
+</div>
+<ng-template #loading>
+  <p>loading...</p>
+</ng-template>
+
+

@@ -1,0 +1,44 @@
+.footer-dark {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+  }
+  
+  .container {
+    width: 80%;
+    margin: auto;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .item {
+    margin-bottom: 15px;
+  }
+  
+  h3 {
+    color: #f8f9fa;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  ul li a {
+    color: #bbb;
+    text-decoration: none;
+  }
+  
+  ul li a:hover {
+    color: white;
+  }
+  
+  .social a {
+    margin-right: 10px;
+    font-size: 20px;
+  }
+  
